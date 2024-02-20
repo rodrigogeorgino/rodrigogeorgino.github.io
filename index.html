@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Grifando meu Texto conforme leitura</title>
+	<meta name="description" content="Tutorial Css5 e HTML5">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Rodrigo Georgino">
+
+	<style type="text/css">
+		/**
+ * Eu vi uma caneta de Ryan Mulligan usando ScrollTrigger do GSAP
+ * e queria ver se conseguia algo parecido
+ * rodando com CSS puro.
+ *
+ * Tradução Professor Rodrigo Georgino.
+ */
+
+@keyframes highlight {
+	to {
+		background-position: 0;
+	}
+}
+
+mark {
+	animation: highlight linear forwards;
+	animation-timeline: view(60% 20%);
+	background: linear-gradient(
+		to right,
+		oklch(0.86 0.19 84.89 / 1) 50%,
+		oklch(0.86 0.19 84.89 / 0) 50%
+	);
+	background-position: 100%;
+	background-size: 200% 100%;
+	border-radius: 0.125rem;
+	padding-inline: 0.125rem;
+}
+
+/************************************************
+ * Outros estilos para deixar a demonstração + bonita.
+ ***********************************************/
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	color: oklch(0.2 0.19 84.89 / 1);
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+		Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-size: 24px;
+	line-height: 1.45;
+}
+
+body {
+	margin: 0;
+}
+
+article {
+	display: grid;
+	min-height: 100svh;
+	place-items: center;
+	width: 100%;
+
+	& .content {
+		padding-block: 2rem 30svh;
+		width: min(600px, 90vw);
+	}
+
+	& img {
+		object-fit: cover;
+		height: max(60svh, 60vw);
+		width: 100%;
+	}
+}
+
+:is(h1, h2) {
+	margin: 0;
+	line-height: 1.1;
+}
+
+h2 {
+	margin-block-start: 2rem;
+}
+	</style>
+</head>
+<body>
+
+	<article>
+	<img src="https://itasite.com.br/imgavf/rodrigo_georgino.avif" title="Exemplo <MARK> e CSS5 - Professor Rodrigo Georgino"/>
+	<div class="content">
+		<h1>Todos nós sabemos que todo mundo só dá uma olhada nos artigos hoje em dia.</h1>
+		<p>
+			Beef consectetur jowl, culpa deserunt nulla nostrud leberkas bresaola commodo short ribs pig pork loin tempor.		</p>
+		<p>
+			Bacon ipsum dolor amet ribeye chislic pork belly biltong, pariatur cupidatat swine pancetta landjaeger aute alcatra cupim drumstick. <mark>Mas há muitas coisas boas no corpo do artigo.</mark> Tacos de quinoa de metrô com prisma de listicle.
+		</p>
+		<p>
+			A família pop-up de biodiesel acelera a microdosagem vegana. Pochete YOLO gentrify celíaco frango quente grande humor.
+		</p>
+		<p>
+			Bacon ipsum dolor amet ribeye chislic pork belly biltong, pariatur cupidatat swine pancetta landjaeger aute alcatra cupim drumstick.<mark>Como fazemos com que alguém leia?</mark> Parque de eco de taxidermia ocupa forcado de avião espião melro, pequeno lote de caminhão de alimentos. 
+		</p>
+		<p>
+			Bacon ipsum dolor amet ribeye chislic pork belly biltong, pariatur cupidatat swine pancetta landjaeger aute alcatra cupim drumstick.
+		</p>
+		<h2>Muitas vezes, as manchetes são as únicas partes que são lidas.</h2>
+		<p>
+			A expressão Lorem ipsum em design gráfico e editoração é um texto padrão em latim utilizado na produção gráfica para preencher os espaços de texto em publicações para testar e ajustar aspectos visuais antes de utilizar conteúdo real. <mark>Talvez possamos chamar alguma atenção para outras partes da história.</mark> para testar e ajustar aspectos visuais antes de utilizar conteúdo real. 
+		</p>
+		<p>
+			Skate ipsum dolor sit amet, air ollie wax rock and roll manual crail slide. Face plant 360 heel flip pump quarter pipe JFA airwalk.
+		</p>
+		<p>
+			Superman hawkeye, “allan quatermain; genesis booster gold ant-man,” triton mister golog luke cage. Captain planet dreamcatcher, nova big daddy augustus “gus” beezer.  <mark>Afinal, são os detalhes que tornam uma história excelente.</mark> Superman hawkeye, “allan quatermain; genesis booster gold ant-man,” triton mister golog luke cage. Captain planet dreamcatcher, nova big daddy augustus “gus” beezer. 
+		</p>
+		<p>
+			Superman hawkeye, “allan quatermain; genesis booster gold ant-man,” triton mister golog luke cage. Captain planet dreamcatcher, nova big daddy augustus “gus” beezer.  <mark>Só precisamos convencer as pessoas a perceberem.</mark> Superman hawkeye, “allan quatermain; genesis booster gold ant-man,” triton mister golog luke cage. Captain planet dreamcatcher, nova big daddy augustus “gus” beezer. 
+		</p>
+		<p>
+			Superman Gavião Arqueiro, “Allan Quatermain; Homem-Formiga Dourado do Reforço de Gênesis”, Triton Mister Golog Luke Cage. Capitão planeta apanhador de sonhos, nova big daddy augustus “gus” beezer. Monica dawson, allan quatermain pássaro-cérebro kraven a caçadora princesa python karnak.
+		</p>
+		<p>
+			<mark>Vamos dar-lhes um empurrãozinho; Com esta Ferramenta!</mark>
+		</p>
+		<p>
+			Como podem ver em F+12 <mark>foi usado somente HTML5 e Css </mark> e um navegador para podemos enxergar o site em funcionamento, gostou do exemplo, de mark e CSS?
+		</p>
+		<p>Professor <mark>Rodrigo Georgino</mark> Rede Púbica De Ensino - 2024 </p>
+	</div>
+	<img src="https://itasite.com.br/imgavf/rodrigo_georgino.avif" title="Exemplo <MARK> e CSS5 - Professor Rodrigo Georgino"/>
+</article>
+
+</body>
+</html>
