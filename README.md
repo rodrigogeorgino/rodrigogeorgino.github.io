@@ -6,7 +6,7 @@
  * e queria ver se conseguia algo parecido
  * rodando com CSS puro.
  *
- * Tradução Professor Rodrigo Georgino.
+ * Tradução Prof. Rodrigo Georgino.
  */</article>
 <h3>Fontes:</h3>
 <h4>HTML <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"> OFFICIAL</a></h4>
