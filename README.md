@@ -13,7 +13,7 @@
 
 <h4>HTML <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"> OFFICIAL</a></h4>
 <h4>CSS <a href="https://developer.mozilla.org/pt-BR/docs/Learn/CSS"> OFFICIAL</a></h4>
-<h4>HTML <a href="https://rodrigogeorgino.github.io/Sistema_Urna/">Acompanhe Outros Projetos - Sistema_Urna |  Github</a></h4>
+<h4>HTML <a href="https://github.com/rodrigogeorgino">Acompanhe Outros Projetos - Sistema_Urna |  Github</a></h4>
 
 
 
