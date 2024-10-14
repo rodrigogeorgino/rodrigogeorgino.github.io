@@ -1,13 +1,11 @@
 <h1># destaque_texto </h1>
 <h2>//Página com rolagem, acionando o CSS. <h2>
   <article>
-    /**
- * Eu vi um codepen de Ryan Mulligan usando ScrollTrigger
- * e queria ver se conseguia algo parecido
- * rodando com CSS puro.
- *
- * Tradução Prof. Rodrigo Georgino.
- */</article>
+  <p>* Eu vi um codepen de Ryan Mulligan usando ScrollTrigger</p>
+  <p>* e queria ver se conseguia algo parecido</p>
+  <p>* rodando com CSS puro.</p>
+ <p>* Tradução Prof. Rodrigo Georgino.</p>
+ </article>
 
 <p>Imagine que você quer criar um site com animações incríveis que acontecem conforme o usuário rola a página. É aí que entra o ScrollTrigger!</p> 
 <p>É uma ferramenta poderosa, geralmente usada com uma biblioteca de animação JavaScript como a GSAP (GreenSock Animation Platform), que permite que você "dispare" animações ou ações no seu site com base na posição da rolagem.</p>
