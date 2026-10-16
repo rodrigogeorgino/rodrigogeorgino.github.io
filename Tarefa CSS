@@ -1,0 +1,179 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #eef2f3, #dfe9f3);
+    color: #333;
+    min-height: 100vh;
+}
+.cabecalho {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #fff;
+    text-align: center;
+    padding: 3rem 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.cabecalho h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.cabecalho p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+.conteudo {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+.minha-secao {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.minha-secao:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.minha-secao h2 {
+    color: #1e3c72;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    border-left: 5px solid #2a5298;
+    padding-left: 12px;
+}
+
+.minha-secao p {
+    color: #555;
+    font-size: 16px;
+}
+
+.casas {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.casa {
+    background: linear-gradient(145deg, #2c1b1b, #442222);
+    color: #fff;
+    border: 1px solid #743333;
+    border-radius: 15px;
+    width: 280px;
+    min-height: 180px;
+    padding: 25px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+.casa:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+    border-color: #a84a4a;
+}
+
+.casa h3 {
+    margin-bottom: 12px;
+    font-size: 1.4rem;
+    color: #ffdddd;
+}
+
+.casa p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #eeeeee;
+}
+
+.botao {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #2a5298;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.botao:hover {
+    background-color: #1e3c72;
+    transform: scale(1.05);
+}
+
+.rodape {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: linear-gradient(135deg, #1e293b, #34495e);
+    color: #fff;
+    margin-top: 50px;
+}
+
+.rodape p {
+    font-size: 14px;
+    opacity: 0.85;
+}
+
+@media (max-width: 768px) {
+
+    .cabecalho {
+        padding: 2rem 1rem;
+    }
+
+    .cabecalho h1 {
+        font-size: 2rem;
+    }
+
+    .conteudo {
+        margin: 25px auto;
+        padding: 0 15px;
+    }
+
+    .minha-secao {
+        padding: 20px;
+    }
+
+    .minha-secao h2 {
+        font-size: 1.5rem;
+    }
+
+    .casa {
+        width: 100%;
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .cabecalho h1 {
+        font-size: 1.7rem;
+    }
+
+    .cabecalho p {
+        font-size: 1rem;
+    }
+
+    .minha-secao {
+        padding: 18px;
+    }
+
+    .casa {
+        padding: 20px;
+    }
+}
