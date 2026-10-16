@@ -1,29 +1,22 @@
-<h1># destaque_texto </h1>
-<h2>//Página com rolagem, acionando o CSS. <h2>
-  <article>
-  <p>* Eu vi um codepen de Ryan Mulligan usando ScrollTrigger</p>
-  <p>* e queria ver se conseguia algo parecido</p>
-  <p>* rodando com CSS puro.</p>
- <p>* Tradução Prof. Rodrigo Georgino.</p>
- </article>
+# 🎨 AULA CSS SELETORES
 
-<p>Imagine que você quer criar um site com animações incríveis que acontecem conforme o usuário rola a página. É aí que entra o ScrollTrigger!</p> 
-<p>É uma ferramenta poderosa, geralmente usada com uma biblioteca de animação JavaScript como a GSAP (GreenSock Animation Platform), que permite que você "dispare" animações ou ações no seu site com base na posição da rolagem.</p>
+> Guia de referência visual de estilização e layout desenvolvidos com **CSS moderno** da aula.
 
-<h3>O que ele faz?</h3>
-<ul>
-<li>Monitora a rolagem: O ScrollTrigger fica de olho em como o usuário está rolando a página, acompanhando a posição da barra de rolagem.</li>
-<li><strong>Iniciar uma animação:</strong> Fazer um elemento aparecer, desaparecer, mudar de cor, tamanho, ou qualquer outro efeito visual.</li>
-<li><strong>Aciona eventos:</strong> Quando um elemento específico na página atinge um certo ponto na tela durante a rolagem</li>
-</ul>
-<hr>
-<h3>Fontes:</h3>
+## 🚀 Sobre o Projeto
+Este repositório reúne componentes, estruturas e regras de estilo focados em **CSS**, demonstrando técnicas de layout responsivo, tipografia, paleta de cores e organização visual limpa.
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/3af92b88-c9ef-46ab-8e95-600cee26cbd2" />
+## 🛠️ Tecnologias Utilizadas
+* **HTML5** (Estrutura semântica)
+* **CSS3** (Estilização, Flexbox / Grid e Responsividade)
+--
+# Vale Observar
+É Uma Página web que, ao ser acionado a rolagem de página, será acionando o CSS que altera para MARK(DESTACADO) em amarelo o texto (Ex. Marca Texto). Eu vi um codepen de Ryan Mulligan usando ScrollTrigger inspirador, e queria ver se conseguia algo parecido, só que aqui rodando com CSS somente. E tá aí o resultado. 👉 [https://rodrigogeorgino.github.io](https://rodrigogeorgino.github.io)  
+
+## 🛠️  ScrollTrigger / GSAP** (Animações interativas acionadas por scroll)
+## Fontes:
 <h4>HTML <a href="https://rodrigogeorgino.github.io/"> Site Github</a></h4>
-
 <h4>HTML <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"> OFFICIAL</a></h4>
 <h4>CSS <a href="https://developer.mozilla.org/pt-BR/docs/Learn/CSS"> OFFICIAL</a></h4>
 <h4>HTML <a href="https://github.com/rodrigogeorgino">Acompanhe Outros Projetos - Sistema_Urna |  Github</a></h4>
 
-
-
-
+## Feito com 💻 por [Rodrigo Georgino](https://github.com/rodrigogeorgino).
